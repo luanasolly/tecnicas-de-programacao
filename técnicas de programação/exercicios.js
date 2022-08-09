@@ -48,3 +48,18 @@ console.log(afrase);
 
 //Verifique o tipo da variável que contém o seu nome
 console.log(typeof Meunome);
+
+//Verifique se a sua idade é a maior do que a de algum parente
+//Dependendo do resultado coloque no console 'é maior', 'é igual' ou 'é menor'
+
+var Minhaid = 19;
+var irmao = 26;
+
+if(Minhaid < irmao) {
+  console.log('É menor');
+} else if (Minhaid > irmao) {
+  console.log('É maior');
+} else {
+  console.log('É igual');
+}
+
